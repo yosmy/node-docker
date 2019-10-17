@@ -1,4 +1,6 @@
-FROM node:12.11.1-alpine
+#https://hub.docker.com/_/node/
+
+FROM node:12.12.0-alpine
 
 RUN apk update
 
